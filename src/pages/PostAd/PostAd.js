@@ -1,4 +1,4 @@
-// src/pages/PostAd/PostAd.js
+
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Form, Button, Alert, Container, Row, Col } from "react-bootstrap";
@@ -55,7 +55,7 @@ function PostAd() {
         description: ""
       });
 
-      // Skjul bekreftelsen etter 5 sek
+      
       setTimeout(() => setSubmitted(false), 5000);
     }
   };

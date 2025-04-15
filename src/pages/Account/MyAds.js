@@ -1,4 +1,4 @@
-// src/pages/Account/MyAds.js
+
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
